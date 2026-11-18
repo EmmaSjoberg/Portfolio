@@ -99,6 +99,7 @@ export default function Layout() {
 
           <button
             className="menu-button"
+            type="button"
             onClick={() => setOpen(!open)}
             aria-label={open ? t('layout.closeMenu') : t('layout.openMenu')}
             aria-expanded={open}

@@ -1,0 +1,97 @@
+/* Mobile and tablet refinements. Loaded after the existing page styles. */
+@media (max-width: 900px) {
+  .container { width: min(1180px, calc(100% - 40px)); }
+  .site-header { height: 72px; }
+  .nav-inner { justify-content: space-between; gap: 14px; }
+  .brand { min-width: 0; }
+  .brand-suffix { display: none; }
+  .nav-cta { display: none; }
+  .menu-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    border: 1px solid #b7c9bd;
+    border-radius: 8px;
+    color: #213c35;
+    background: #f4f8f4;
+    cursor: pointer;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    margin: 0;
+    padding: 18px 20px 24px;
+    background: #fbfcfa;
+    border-bottom: 1px solid #dce6de;
+    box-shadow: 0 12px 24px rgb(22 50 35 / 12%);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .nav-links.nav-open { display: flex; }
+  .nav-links .nav-link { display: block; padding: 12px 8px; font-size: 16px; }
+  .nav-links .language-switch { padding: 10px 8px; gap: 12px; }
+  .nav-links .language-switch button { padding: 9px 6px; opacity: 1; }
+  .nav-mobile-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: #213c35;
+    color: white;
+    font-weight: 700;
+  }
+  .footer-inner { gap: 22px; }
+}
+
+@media (max-width: 700px) {
+  .container { width: calc(100% - 36px); }
+  p { line-height: 1.6; }
+  .page-content { padding-top: 24px; }
+  .page-intro { margin-bottom: 24px; }
+  .page-intro h1 { font-size: clamp(36px, 9vw, 48px); }
+  .page-intro p, .project-section > p,
+  .stillia-study .project-section > p,
+  .contact-page .page-intro p { font-size: 15px; line-height: 1.6; }
+  .project-section { padding: 20px 0; }
+  .project-section > h2 { font-size: clamp(23px, 6vw, 28px); }
+  .project-section > h3 { margin-top: 20px; }
+  .project-back-link { margin-top: 14px; margin-bottom: 24px; }
+  .stillia-study .project-section > p { line-height: 1.6; }
+  .stillia-study .project-section > p + p { margin-top: 8px; }
+  .stillia-feature-grid { margin: 18px 0 20px; }
+  .stillia-feature { padding: 16px; }
+  .stillia-hero { margin: 12px 0; gap: 18px; }
+  .stillia-hero-copy p { line-height: 1.6; }
+  .hero-revised { padding-top: 14px; padding-bottom: 20px; gap: 18px; }
+  .hero-revised h1 { margin: 12px 0; }
+  .hero-revised .hero-description { font-size: 15px; line-height: 1.6; }
+  .hero-revised .hero-info.hero-story { padding: 20px; }
+  .hero-quicklinks { margin-top: 14px; gap: 16px; }
+  .section { padding-top: 18px; padding-bottom: 20px; }
+  .section-heading { margin-bottom: 14px; }
+  .footer-inner { padding-top: 26px; padding-bottom: 26px; gap: 20px; }
+  .footer-left, .footer-right { width: 100%; min-width: 0; }
+  .footer-email { font-size: 14px; overflow-wrap: normal; word-break: normal; gap: 8px; }
+  .footer-email svg { flex: 0 0 auto; }
+  .footer-right { flex-direction: row; align-items: center; justify-content: space-between; }
+  .footer-brand { font-size: 21px; }
+  .about-personal-section { margin-bottom: 22px; }
+}
+
+@media (max-width: 540px) {
+  .stillia-study .stillia-survey-grid { grid-template-columns: 1fr; gap: 12px; }
+  .stillia-survey-grid .stillia-feature { padding: 16px 18px; }
+  .stillia-survey-grid .stillia-feature h3 { font-size: 28px; margin-bottom: 6px; }
+  .stillia-survey-grid .stillia-feature p { line-height: 1.5; }
+  .stillia-study .stillia-activities-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer-email { font-size: 13px; }
+}

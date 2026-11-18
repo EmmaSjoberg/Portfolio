@@ -1,0 +1,63 @@
+/* Site-wide WCAG AA contrast improvements on light surfaces. */
+h1 em, h2 em, .brand-symbol span, .accent { color: #426b55; }
+.hero-description, .project-section > p, .project-meta span,
+.vehicle-feature-grid p, .vehicle-gallery figcaption,
+.stillia-video-caption, .stillia-screenshot-grid figcaption,
+.about-personal-card p { color: #405a49; }
+.hero-kicker, .eyebrow, .project-section > .eyebrow,
+.hero-bottom, .visual-label, .about-fact-number,
+.stillia-decisions-grid .stillia-feature .eyebrow { color: #365b46; }
+.availability { color: #315b42; }
+.brand-suffix, .project-detail-caption, .vehicle-architecture span { color: #405a49; }
+.stillia-study {
+  --stillia-text-muted: #405a49;
+  --stillia-green-muted: #405a49;
+  --stillia-green: #3c644a;
+}
+.language-switch button { opacity: 1; }
+.language-switch button:not(.language-active) { color: #405a49; }
+.language-switch button.language-active { color: #183b2b; font-weight: 800; }
+/* On the dark footer, use light accent text rather than dark-on-dark. */
+.site-footer .accent { color: #b6ddc3; }
+/* Make keyboard focus visible on both light and dark backgrounds. */
+:focus-visible { outline: 3px solid #205b42; outline-offset: 3px; }
+.site-footer :focus-visible, .nav-cta:focus-visible,
+.button-dark:focus-visible, .nav-mobile-cta:focus-visible { outline-color: #fff; }
+/* Maintain readable text if the browser enlarges it. */
+.project-meta span, .stillia-feature h3, .stillia-feature p,
+.about-personal-card, .footer-email { min-width: 0; }
+
+@media (max-width: 900px) {
+  .hero { min-height: 0; grid-template-columns: 1fr; padding-block: 32px; }
+  .hero-visual { height: 310px; }
+  .visual-orbit { width: 280px; height: 280px; }
+  .visual-orbit.orbit-two { width: 220px; height: 220px; }
+  .footer-email { overflow-wrap: anywhere; }
+}
+@media (max-width: 700px) {
+  .hero { gap: 14px; padding-block: 24px; }
+  .hero h1 { font-size: clamp(36px, 9vw, 48px); }
+  .hero-description { font-size: 15px; line-height: 1.6; }
+  .hero-actions { flex-wrap: wrap; gap: 12px; }
+  .hero-bottom { margin-top: 24px; }
+  .hero-visual { height: 245px; }
+  .visual-orbit { width: 225px; height: 225px; }
+  .visual-orbit.orbit-two { width: 175px; height: 175px; }
+  .visual-core { width: 138px; height: 138px; }
+  .visual-core span { font-size: 35px; }
+  .visual-label { padding: 9px; font-size: 9px; letter-spacing: .05em; }
+  .about-introduction, .about-skills-section { margin-bottom: 30px; }
+  .project-section > p, .stillia-study .project-section > p { line-height: 1.6; }
+  .footer-right { flex-wrap: wrap; }
+}
+@media (max-width: 540px) {
+  .stillia-study .stillia-survey-grid { grid-template-columns: minmax(0, 1fr); }
+  .stillia-survey-grid .stillia-feature h3 { overflow-wrap: normal; }
+  .stillia-survey-grid .stillia-feature { padding: 17px 18px; }
+  .about-personal-grid, .about-skills-grid { grid-template-columns: minmax(0, 1fr); }
+  .footer-email { font-size: 13px; }
+}
+@media (max-width: 360px) {
+  .footer-right { align-items: flex-start; flex-direction: column; }
+  .visual-label { font-size: 8px; }
+}
