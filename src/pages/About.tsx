@@ -55,7 +55,7 @@ const personalFacts = [
   { number: '02', key: 'travel' },
   { number: '03', key: 'lists' },
   { number: '04', key: 'yahtzee' },
-  { number: '05', key: 'coffee' },
+  { number: '05', key: 'trueCrime' },
 ]
 
 export default function About() {

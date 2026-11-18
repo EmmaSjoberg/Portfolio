@@ -107,10 +107,10 @@
         "title": "Yatzy-mästare",
         "description": "Jag vinner alltid i Yatzy. Och ja, jag är väldigt ödmjuk med det."
       },
-      "coffee": {
-        "title": "Kaffe först",
-        "description": "Min produktivitet kanske drivs av koffein. Forskningen pågår."
-      }
+      "trueCrime": {
+      "title": "Amatördetektiv",
+      "description": "Jag har sett så många true crime-dokumentärer att jag nästan räknar mig själv som detektiv."
+}
     }
   },
   "projects": {

@@ -109,11 +109,10 @@
         "title": "Yahtzee champion",
         "description": "I always win at Yahtzee. And yes, I'm very humble about it."
       },
-      "coffee": {
-        "title": "Coffee first",
-        "description": "My productivity might be powered by caffeine. Research is ongoing."
-      }
-    }
+      "trueCrime": {
+       "title": "True crime enthusiast",
+       "description": "I watch enough true crime documentaries to consider myself an amateur detective."
+}
   },
   "projects": {
     "eyebrow": "PORTFOLIO / SELECTED WORK",
@@ -147,4 +146,5 @@
       "note": "Case study with app screenshots, statistics and feature demonstrations."
     }
   }
+}
 }
