@@ -1,0 +1,261 @@
+{
+  "back": "Alla projekt",
+  "description": "En Androidapp som uppmuntrar till mer medvetna skärmvanor genom skärmtidsstatistik, påminnelser och guidade andningsövningar.",
+  "idea": {
+    "eyebrow": "Tanken bakom Stillia",
+    "heading": "Medvetenhet, inte begränsningar.",
+    "paragraph1": "Tänk om en skärmtidsapp kunde hjälpa människor att bli medvetna om sina vanor i stället för att bara blockera åtkomsten?",
+    "paragraph2": "Stillia hjälper användare att bli mer medvetna om sin skärmtid utan att begränsa deras mobilanvändning. Användaren väljer själv hur länge en session ska pågå och får två korta vibrationer två minuter innan tiden är slut. När sessionen avslutas visas en 30 sekunder lång animation med vibrationer som uppmuntrar användaren att varva ner och fokusera på sin puls. Därefter kan användaren själv välja om den vill fortsätta med en guidad andningsövning (breathwork) eller inte.",
+    "technology": "Android · Kotlin · UX-design · Kravhantering",
+    "imageAlt": "Stillias pausfunktion med en animation inspirerad av hjärtslag"
+  },
+  "meta": {
+    "origin": "Ursprung",
+    "originValue": "Individuellt universitetsprojekt på B-nivå inom informatik",
+    "collaboration": "Samarbete",
+    "collaborationValue": "Utvecklat i samarbete med ett startupföretag",
+    "role": "Min roll",
+    "roleValue": "Ensam utvecklare · Undersökning · UX · Kravhantering · Testning",
+    "technology": "Teknik",
+    "technologyValue": "Android / Kotlin / Jetpack Compose"
+  },
+  "sections": {
+    "challenge": {
+      "eyebrow": "UTMANINGEN",
+      "heading": "- Från automatiskt scrollande till medvetna val.",
+      "p1": "Med smarttelefoner är det enkelt att växla mellan sociala medier, underhållning och andra appar utan att märka hur mycket tid som går. Det som börjar som en kort stund kan bli betydligt längre än planerat.",
+      "p2": "Många befintliga verktyg för digitalt välbefinnande fokuserar på att övervaka användning, sätta gränser eller blockera appar. Stillia utforskar om ett mindre begränsande sätt kan öka medvetenheten samtidigt som användaren behåller kontrollen.",
+      "p3": "Den centrala designutmaningen var att skapa en påminnelse som märks utan att upplevelsen blir stressande, dömande eller onödigt störande."
+    },
+    "research": {
+      "eyebrow": "ANVÄNDARUNDERSÖKNING",
+      "heading": "- Att förstå vanor innan man utformar lösningar.",
+      "p1": "Jag genomförde en enkät med 40 deltagare för att undersöka skärmvanor, intresset för konceptet och önskemål om olika typer av påminnelser.",
+      "p2": "Resultaten tydde på att oplanerad skärmanvändning var ett välbekant problem för många deltagare och att det fanns ett inledande intresse för ett mjukare tillvägagångssätt.",
+      "p3": "Sociala medier och korta videoklipp var de aktiviteter som oftast förknippades med att använda mobilen längre än planerat.",
+      "p4": "Fritextsvaren gav ytterligare perspektiv. Deltagarna betonade enkelhet, flexibla påminnelser och vikten av att undvika avbrott vid avsiktlig eller arbetsrelaterad mobilanvändning.",
+      "p5": "Förslagen omfattade även möjligheten att spara en föredragen sessionslängd och få tydligare information om användningsmönster mellan appar och tidsperioder.",
+      "p6": "Resultaten hjälpte mig att identifiera möjligheter för produktdesignen. De visar inledande preferenser och uttryckt intresse, inte bevis för långsiktiga beteendeförändringar."
+    },
+    "competitors": {
+      "eyebrow": "KONKURRENTANALYS",
+      "heading": "- Att undersöka befintliga lösningar.",
+      "p1": "Innan jag utvecklade lösningen undersökte jag befintliga metoder för digitalt välbefinnande, skärmtidshantering och mindfulness.",
+      "p2": "Undersökningen omfattade bland annat Android Digital Wellbeing, Apple Screen Time, Forest, One Sec och Opal samt mindfulnessappar som Calm, Headspace och The Breathing App.",
+      "p3": "Jämförelsen hjälpte mig att välja produktens inriktning: medvetenhet och egna val i stället för att göra blockering eller spelifiering till huvudfunktionen."
+    },
+    "requirements": {
+      "eyebrow": "KRAV OCH DESIGN",
+      "heading": "- Från undersökning till produktbeslut.",
+      "p1": "Jag skapade och hanterade en strukturerad kravlista med 58 numrerade krav. De omfattade hela upplevelsen, bland annat introduktion, sessionshantering, hjärtslagsinspirerade signaler, pausfunktion, andningsövningar och dagliga skärmtidsmål.",
+      "p2": "Jag dokumenterade kraven med prioriteringar och implementeringsstatus för att stödja planering och uppföljning.",
+      "p3": "Exemplen visar hur undersökningsresultat och produktkrav påverkade mina designbeslut. Jag fortsatte att förbättra vissa funktioner efter universitetsprojektet."
+    },
+    "experience": {
+      "eyebrow": "KÄRNUPPLEVELSEN",
+      "heading": "- En paus vid rätt tillfälle.",
+      "p1": "Innan användaren öppnar en vald app går det att bestämma hur länge den ska användas. Stillia föreslår tider utifrån appens kategori, men användaren fattar det slutliga beslutet.",
+      "p2": "Det ger möjlighet att fatta ett medvetet beslut innan en aktivitet som annars lätt fortsätter av bara farten.",
+      "p3": "När den valda sessionstiden är slut aktiverar Stillia en paussekvens som är utformad för att flytta uppmärksamheten från skärmen till kroppen.",
+      "p4": "I stället för att direkt blockera åtkomsten sker övergången gradvis med animation och haptisk återkoppling.",
+      "p5": "Sekvensen börjar med en pulserande animation och vibrationer inspirerade av hjärtslag. Rytmen baseras på en vilopuls som användaren själv anger.",
+      "p6": "Användaren kan välja att starta en guidad andningsövning genom att hålla tummen mot animationens mitt.",
+      "p7": "Övningen har fyra nivåer med återkommande cykler av inandning, att hålla andan, utandning och att hålla andan igen. Intervallen ökar mellan nivåerna från två till fyra, sex och åtta sekunder.",
+      "p8": "Hela andningsövningen tar nästan åtta minuter. Videon visar en förkortad version innan den går vidare till sista steget, där skärmen gradvis tonas till svart.",
+      "p9": "Andningsövningen är frivillig och kan avbrytas. Målet är att uppmuntra en medveten paus, inte att tvinga användaren att sluta använda mobilen."
+    },
+    "application": {
+      "eyebrow": "APPEN",
+      "heading": "- Utformad med användarens kontroll i centrum.",
+      "p1": "Stillia samlar sessionshantering, pausfunktion, personliga inställningar och skärmtidsstatistik i en Androidapp.",
+      "p2": "Användaren kan anpassa inställningar och hur appen ska fungera. Möjligheten att själv bestämma var viktig under hela designprocessen."
+    },
+    "statistics": {
+      "eyebrow": "ANVÄNDNINGSSTATISTIK",
+      "heading": "- Att göra skärmvanor lättare att förstå.",
+      "p1": "Utöver enskilda sessioner ger Stillia en överblick över skärmvanorna. Startsidan visar dagens användning i förhållande till en personligt mål och fördelar aktiviteten efter kategori.",
+      "p2": "Vecko- och månadsstatistik gör det möjligt att följa användningen över tid, medan sessionshistoriken visar tidigare sessioner."
+    },
+    "development": {
+      "eyebrow": "UTVECKLING OCH TESTNING",
+      "heading": "- Att förbättra genom utveckling och utvärdering.",
+      "p1": "Jag utvecklade Androidappen med Kotlin och Jetpack Compose, med kompletterande backendfunktionalitet byggd i Java och Spring Boot.",
+      "p2": "Under projektet arbetade jag med gränssnittsdesign, applikationslogik, Androidplattformens funktioner och iterativ testning.",
+      "p3": "Jag använde planerade funktionstester, användarutvärderingar och ad hoc-testning för att undersöka hur appen fungerade i olika situationer.",
+      "p4": "Vid ad hoc-testning upptäckte jag ett problem där bild-i-bild-video kunde fortsätta spelas under paussekvensen. Problemet dokumenterades som åtgärdat i den ursprungliga testloggen.",
+      "p5": "Ett annat dokumenterat problem var att information om behörigheter fortsatte visas efter att behörigheten hade beviljats. Detta var fortfarande markerat som öppet i den ursprungliga testloggen.",
+      "p6": "Resultaten visade vikten av att testa samspelet med Androidsystemet, särskilt för en app som ska fungera tillsammans med andra appar.",
+      "p7": "Utvärderingarna gav återkoppling om prototypens funktionalitet och användbarhet. De visade inte om Stillia leder till varaktigt minskad skärmtid."
+    },
+    "context": {
+      "eyebrow": "PROJEKTBAKGRUND",
+      "heading": "- Från universitetsprojekt till Stillia.",
+      "p1": "Stillia började som ett individuellt universitetsprojekt på B-nivå inom informatik, genomfört i samarbete med ett startupföretag.",
+      "p2": "Jag ansvarade själv för projektets användarundersökning, konkurrentanalys, kravhantering, UX-design, Androidutveckling och testning.",
+      "p3": "Efter universitetsprojektet fortsatte jag att utveckla och förbättra appen, bland annat dess visuella identitet, statistik, enhetlighet i gränssnittet och demoläge.",
+      "p4": "Projektbeskrivningen visar mitt arbete genom hela produktutvecklingsprocessen, från inledande undersökning och planering till implementation, utvärdering och förbättringar."
+    },
+    "reflection": {
+      "eyebrow": "REFLEKTION",
+      "heading": "- Att utgå från användaren, inte bara tekniken.",
+      "p1": "Stillia gav mig möjlighet att ansvara för en hel produktutvecklingsprocess: från att förstå problemet och utvärdera befintliga lösningar till att definiera krav, utforma interaktioner, implementera funktioner och testa resultatet.",
+      "p2": "En av de mest intressanta utmaningarna var att hitta balansen mellan hjälpsam återkoppling och respekt för användarens självbestämmande. En påminnelse behöver märkas för att öka medvetenheten, men får inte störa så mycket att den skapar frustration.",
+      "p3": "Att arbeta självständigt krävde också att jag prioriterade funktioner, fattade tekniska beslut och designbeslut samt utvärderade resultatet under utvecklingen.",
+      "p4": "Projektet stärkte mitt intresse för att kombinera teknisk utveckling med användarupplevelse, undersökningar, kravhantering och genomtänkta produktbeslut."
+    }
+  },
+  "research": {
+    "unplannedHeading": "Var uppstår oplanerad skärmtid?",
+    "feedbackHeading": "Vad berättade användarna?"
+  },
+  "requirements": {
+    "decisionsHeading": "Från resultat till designbeslut",
+    "userNeed": "ANVÄNDARBEHOV",
+    "designResponse": "DESIGNLÖSNING"
+  },
+  "experience": {
+    "sessionHeading": "Välj sessionslängd",
+    "groundingHeading": "En paus när tiden är slut",
+    "howHeading": "Så fungerar pausfunktionen"
+  },
+  "application": {
+    "settingsHeading": "Personliga inställningar"
+  },
+  "statistics": {
+    "galleryHeading": "Användningsstatistik"
+  },
+  "development": {
+    "findingsHeading": "Exempel på testresultat"
+  },
+  "video": {
+    "sessionAria": "Demonstration av sessionslängd i Stillia",
+    "sessionCaption": "Att välja sessionslängd innan en app används.",
+    "groundingAria": "Demonstration av Stillias pausfunktion",
+    "groundingCaption": "Demonstration av pausfunktionen.",
+    "unsupported": "Din webbläsare stöder inte videouppspelning."
+  },
+  "survey": {
+    "respondents": {
+      "value": "40",
+      "label": "Enkätdeltagare",
+      "description": "Deltagare i användarundersökningen"
+    },
+    "unplanned": {
+      "value": "67.5%",
+      "label": "Oplanerad skärmtid",
+      "description": "Använde ofta mobilen längre än planerat"
+    },
+    "interest": {
+      "value": "82.5%",
+      "label": "Intresse för konceptet",
+      "description": "Gav sitt intresse betyget 4 eller 5 av 5"
+    },
+    "signals": {
+      "value": "80%",
+      "label": "Positiva till diskreta signaler",
+      "description": "Svarade positivt eller ganska positivt"
+    }
+  },
+  "activities": {
+    "social": "Sociala medier",
+    "shortVideo": "Korta videoklipp",
+    "gaming": "Spel",
+    "streaming": "Streaming / video",
+    "other": "Övrigt"
+  },
+  "decisions": {
+    "longer": {
+      "finding": "Människor använder ofta appar längre än de tänkt.",
+      "decision": "Inför medvetna sessioner där användaren väljer en tidslängd innan start."
+    },
+    "subtle": {
+      "finding": "Användarna uttryckte intresse för diskret återkoppling som inte stör.",
+      "decision": "Utforska hjärtslagsinspirerade vibrationer och animationer i stället för att enbart använda vanliga aviseringar."
+    },
+    "control": {
+      "finding": "Användarna ville ha flexibilitet och kontroll över upplevelsen.",
+      "decision": "Stöd personliga inställningar, valda appar och sessioner som användaren styr själv."
+    },
+    "insights": {
+      "finding": "Användarna ville förstå sina skärmvanor bättre.",
+      "decision": "Visa daglig användning, fördelning per kategori samt vecko- och månadsstatistik."
+    }
+  },
+  "features": {
+    "sessions": {
+      "title": "Medvetna sessioner",
+      "text": "Välj hur länge en app ska användas, med förslag utifrån appkategori och möjlighet att avsluta sessionen i förtid."
+    },
+    "grounding": {
+      "title": "Pausfunktion",
+      "text": "En animation och vibrationssekvens inspirerad av hjärtslag skapar en mjuk paus när den valda tiden är slut."
+    },
+    "breathing": {
+      "title": "Frivillig andningsövning",
+      "text": "En interaktiv andningsövning kombinerar visuell vägledning och haptisk återkoppling utan krav på att slutföra hela sekvensen."
+    },
+    "insights": {
+      "title": "Användningsstatistik",
+      "text": "Utforska daglig skärmtid, vecko- och månadstrender, användningskategorier och tidigare sessioner."
+    },
+    "interface": {
+      "title": "Anpassningsbart gränssnitt",
+      "text": "Diskreta färgförändringar visar hur användningen förhåller sig till en personlig daglig skärmtidsmål."
+    },
+    "demo": {
+      "title": "Demoläge",
+      "text": "Demonstrera viktiga interaktioner och utforska gränssnittet utan att behöva en fysisk Androidenhet."
+    }
+  },
+  "competitorCards": {
+    "blocking": {
+      "title": "Gränser och blockering",
+      "description": "Skärmtidsverktyg hjälper ofta användare att följa användningen, sätta gränser eller begränsa åtkomsten till vissa appar."
+    },
+    "mindfulness": {
+      "title": "Mindfulness och andning",
+      "description": "Mindfulnessappar erbjuder guidade aktiviteter men kräver oftast att användaren aktivt startar en separat övning."
+    },
+    "approach": {
+      "title": "Stillias tillvägagångssätt",
+      "description": "Konceptet kombinerar medvetna sessioner med mjuka, kroppsorienterade signaler under pågående mobilanvändning."
+    }
+  },
+  "requirementCards": {
+    "count": {
+      "title": "58 krav",
+      "description": "En strukturerad kravlista med funktionella, tekniska och användarrelaterade aspekter."
+    },
+    "design": {
+      "title": "Användarcentrerad design",
+      "description": "Fokus på tydliga interaktioner, lågmäld återkoppling och personlig kontroll."
+    },
+    "android": {
+      "title": "Androidbegränsningar",
+      "description": "Design och implementation behövde också ta hänsyn till enhetsbehörigheter och plattformens beteende."
+    }
+  },
+  "developmentCards": {
+    "functional": {
+      "title": "Funktionstestning",
+      "description": "Utvärdering av viktiga appflöden, bland annat sessioner, interaktioner och stödfunktioner."
+    },
+    "evaluation": {
+      "title": "Användarutvärdering",
+      "description": "Insamling av återkoppling om användbarhet, tydlighet och hur användarna upplevde prototypen."
+    },
+    "issues": {
+      "title": "Felhantering",
+      "description": "Dokumentation av upptäckta problem, deras status och möjligheter till förbättring."
+    }
+  },
+  "settingsImages": {
+    "preferences": "Personliga inställningar"
+  },
+  "statisticsImages": {
+    "home": "Startsida",
+    "weekly": "Veckostatistik",
+    "weeklyInsights": "Veckoöversikt",
+    "monthly": "Månadsstatistik"
+  }
+}

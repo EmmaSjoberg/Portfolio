@@ -1,0 +1,150 @@
+{
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "layout": {
+    "skip": "Skip to main content",
+    "brandSuffix": "product & technology",
+    "mainNavigation": "Main navigation",
+    "language": "Select language",
+    "getInTouch": "Get in touch",
+    "letsTalk": "Let's talk",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "eyebrow": "INFORMATICS · SYSTEM DEVELOPMENT",
+    "greeting": "Hi, I'm {{name}}",
+    "description": "I'm an Informatics student at Mid Sweden University, specializing in Systems Development. Through academic projects and my role as a teaching assistant, I've gained experience in software development, problem-solving and collaboration. I'm particularly interested in requirements analysis, digital product development and project coordination.",
+    "explore": "Explore my work",
+    "aboutLink": "Get to know me",
+    "availability": "Open to full-time and part-time opportunities",
+    "viewCV": "View CV",
+    "glance": {
+      "heading": "At a glance",
+      "education": "Informatics student",
+      "educationDescription": "Mid Sweden University · Graduating 2027",
+      "work": "Teaching assistant",
+      "workDescription": "Guiding students in programming and software development, assessing assignments and grading coursework.",
+      "technical": "Technical background",
+      "technicalDescription": "Experience with web, desktop and Android development."
+    },
+    "interests": {
+      "heading": "What interests me",
+      "description": "I'm interested in more than the final product — I want to understand the people, decisions and processes behind it.",
+      "product": {
+        "title": "Product thinking",
+        "description": "Understanding user needs and exploring how digital solutions can solve real problems."
+      },
+      "planning": {
+        "title": "Structure & planning",
+        "description": "Breaking down problems, organizing tasks and finding a clear path from idea to implementation."
+      },
+      "collaboration": {
+        "title": "People & collaboration",
+        "description": "Working with others, sharing ideas and learning from different perspectives."
+      }
+    },
+    "projects": {
+      "heading": "Selected projects",
+      "all": "All projects",
+      "caseStudy": "View case study",
+      "stilliaGroundingAlt": "Stillia grounding screen",
+      "stilliaHomeAlt": "Stillia home screen with usage overview",
+      "stilliaStatisticsAlt": "Stillia weekly usage statistics",
+      "vehicleAlt": "Vehicle Monitoring dashboard showing device statistics and charts"
+    }
+  },
+  "contact": {
+    "eyebrow": "SAY HELLO",
+    "titleFirst": "Get in",
+    "titleAccent": "touch.",
+    "description": "Whether you have an opportunity, a question or simply want to connect, I'd love to hear from you.",
+    "email": "Email",
+    "linkedin": "Connect with me on LinkedIn",
+    "github": "Explore my repositories"
+  },
+  "about": {
+    "eyebrow": "A LITTLE ABOUT ME",
+    "title": "About",
+    "titleAccent": "me.",
+    "greeting": "Hi, I'm {{name}}.",
+    "intro1": "I'm an Informatics student at Mid Sweden University, graduating in 2027. Alongside my studies, I work as a teaching assistant, guiding students in software development and assessing their coursework.",
+    "intro2": "My background combines technical development with experience in education and international service roles. I'm particularly interested in the intersection of technology, people and business.",
+    "connect": "Let's connect",
+    "skillsHeading": "Skills & knowledge",
+    "skillsDescription": "A mix of technical skills and product-oriented competencies developed through studies and projects.",
+    "skillGroups": {
+      "product": "Product & project work",
+      "programming": "Programming languages",
+      "frameworks": "Frameworks & development",
+      "tools": "Databases & tools"
+    },
+    "skills": {
+      "requirements": "Requirements analysis",
+      "coordination": "Project coordination",
+      "ux": "UX & prototyping",
+      "testing": "Software testing",
+      "collaboration": "Team collaboration"
+    },
+    "factsHeading": "5 fun facts about me",
+    "factsDescription": "A few things you won't find in my project descriptions.",
+    "facts": {
+      "finland": {
+        "title": "Born in Finland",
+        "description": "I was only 3 months old when I had my first sauna experience."
+      },
+      "travel": {
+        "title": "Not always in Sweden",
+        "description": "Swedish by passport, but my suitcase rarely gets a break."
+      },
+      "lists": {
+        "title": "Lists for everything",
+        "description": "I make to-do lists. Sometimes I add things I've already done just to tick them off."
+      },
+      "yahtzee": {
+        "title": "Yahtzee champion",
+        "description": "I always win at Yahtzee. And yes, I'm very humble about it."
+      },
+      "coffee": {
+        "title": "Coffee first",
+        "description": "My productivity might be powered by caffeine. Research is ongoing."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "PORTFOLIO / SELECTED WORK",
+    "title": "Selected",
+    "titleAccent": "projects.",
+    "description": "I'm interested in how products take shape — from the problem we're solving to the technology and decisions behind the solution. These projects show both collaborative university work and independent development.",
+    "challenge": "Challenge",
+    "approach": "Approach",
+    "takeaway": "Key takeaway",
+    "viewCaseStudy": "View full case study",
+    "vehicleAlt": "Vehicle Monitoring dashboard with telemetry charts",
+    "stilliaGroundingAlt": "Stillia grounding screen",
+    "stilliaHomeAlt": "Stillia home screen",
+    "stilliaStatisticsAlt": "Stillia statistics screen"
+  },
+  "projectData": {
+    "vehicle": {
+      "category": "UNIVERSITY–INDUSTRY CASE STUDY",
+      "summary": "A monitoring dashboard for electronic devices installed in buses, developed with a real company and later extended independently.",
+      "problem": "Turning historical onboard-device telemetry into clearer insights for technical monitoring.",
+      "approach": "Stakeholder discussions, feature prioritization, team development and independent improvements.",
+      "learning": "Understanding what a business actually needs, rather than simply focusing on what it asks for, is essential to developing a useful solution.",
+      "note": "Case study with dashboard, device details and analytics screenshots."
+    },
+    "stillia": {
+      "category": "PRODUCT CASE STUDY",
+      "summary": "A mobile app that helps users develop more mindful screen-time habits through usage insights, mindfulness and guided breathing exercises (breathwork).",
+      "problem": "Helping people understand their digital habits without turning progress into pressure.",
+      "approach": "Mobile flows, usage statistics, design iterations and a demo experience.",
+      "learning": "Balancing product goals, usability and technical constraints.",
+      "note": "Case study with app screenshots, statistics and feature demonstrations."
+    }
+  }
+}

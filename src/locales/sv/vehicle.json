@@ -1,0 +1,142 @@
+{
+  "back": "Alla projekt",
+  "eyebrow": "SAMARBETE MELLAN UNIVERSITET OCH FÖRETAG / PRODUKT- OCH TEKNIKPROJEKT",
+  "titleFirst": "Vehicle",
+  "titleAccent": "Monitoring.",
+  "description": "Att omvandla historiska data från elektroniska enheter ombord på bussar till tydligare information för teknisk övervakning.",
+  "heroAlt": "Vehicle Monitoring med statistik och diagram över elektroniska enheter",
+  "meta": {
+    "context": "Bakgrund",
+    "contextValue": "Universitetsprojekt med ett företag, följt av självständig vidareutveckling",
+    "team": "Grupp",
+    "teamValue": "Fyra studenter i det ursprungliga projektet",
+    "stack": "Teknik",
+    "stackValue": "C#, .NET, ASP.NET Core MVC, MongoDB, Razor, JavaScript",
+    "demo": "Demodata",
+    "demoValue": "Syntetiska data, inte företagets produktionsdata"
+  },
+  "screenshots": {
+    "dashboard": {
+      "first": {
+        "label": "Översikt",
+        "alt": "Vehicle Monitoring med mätvärden och diagram för enheter"
+      },
+      "second": {
+        "label": "Varningar och övervakning",
+        "alt": "Dashboard med övervakningsvarningar och enhetsinformation"
+      }
+    },
+    "details": {
+      "first": {
+        "label": "Enhetsdetaljer",
+        "alt": "Detaljerad övervakningsinformation för en enhet ombord på en buss"
+      },
+      "second": {
+        "label": "Enheternas mätvärden",
+        "alt": "Historiska mätvärden och övervakningsinformation för en enhet"
+      }
+    },
+    "analytics": {
+      "first": {
+        "label": "Historisk analys",
+        "alt": "Analys av historiska mätvärden i Vehicle Monitoring"
+      },
+      "second": {
+        "label": "Analysöversikt",
+        "alt": "Ytterligare diagram och visualiseringar för teknisk övervakning"
+      }
+    }
+  },
+  "sections": {
+    "overview": {
+      "eyebrow": "01 / Projektöversikt",
+      "title": "Övervakning av elektroniska enheter i bussar",
+      "p1": "Vehicle Monitoring är en webbapplikation för att utforska mätvärden från elektroniska övervakningsenheter installerade i bussar. Informationen gäller enheternas hårdvara och rapporteringsbeteende, exempelvis CPU-temperatur, minnesanvändning, omstarter och kommunikationsstatus. Systemet bedömer inte bussarnas mekaniska skick.",
+      "p2": "Projektet började som ett universitetsprojekt i samarbete med ett företag. Fyra studenter utvecklade den första versionen och efter kursens slut fortsatte jag att förbättra applikationen självständigt."
+    },
+    "challenge": {
+      "eyebrow": "02 / VERKSAMHETENS UTMANING",
+      "title": "Från historiska rådata till användbar information.",
+      "p1": "Företaget hade redan tillgång till aktuell och historisk information om enheterna, men för att undersöka trender och potentiella problem behövde man manuellt gå igenom olika poster. De efterfrågade statistik och visualiseringar som kunde göra avvikande beteenden enklare att upptäcka och undersöka.",
+      "p2": "Under ett gemensamt möte för kursens studenter beskrev företagets representanter sin tekniska miljö och sina verksamhetsutmaningar och svarade sedan på frågor. Bland annat diskuterades oväntade omstarter, diskanvändning, enheter som slutar rapportera och skillnader mellan olika hårdvarutyper.",
+      "p3": "En viktig insikt var att mätvärden måste förstås i sitt sammanhang. En hög minnesanvändning kan vara normal för en viss hårdvarutyp men problematisk för en annan. Uteblivna rapporter kan också bero på att en buss inte är i trafik, snarare än att enheten är trasig."
+    },
+    "requirements": {
+      "eyebrow": "03 / KRAV OCH PRIORITERING",
+      "title": "Att välja en hanterbar omfattning.",
+      "p1": "Företaget beskrev flera möjliga analysområden. Eftersom kursen hade en begränsad tidsram valde vår grupp att fokusera på CPU-temperatur, RAM-användning och antal omstarter, utifrån företagets beskrivning av återkommande övervakningsproblem. Jag deltog i prioriteringen av dessa områden.",
+      "features": {
+        "cpu": {
+          "title": "CPU-temperatur",
+          "description": "Visa temperaturhistorik och hjälpa till att uppmärksamma potentiellt avvikande mätvärden."
+        },
+        "ram": {
+          "title": "RAM-användning",
+          "description": "Presentera minnesanvändning på ett sätt som underlättar undersökningar av enheternas beteende."
+        },
+        "boot": {
+          "title": "Omstarter",
+          "description": "Använda omstartsdata för att identifiera enheter som startar om oväntat ofta."
+        },
+        "scope": {
+          "title": "Avgränsningar",
+          "description": "Alla idéer från mötet genomfördes inte i denna version, exempelvis analys av ökande diskanvändning och övervakning av närliggande enheter."
+        }
+      },
+      "p2": "Arbetet gav mig möjlighet att koppla verksamhetens behov till tekniska funktioner, samtidigt som vi behövde ta hänsyn till begränsningar och prioritera en genomförbar första leverans."
+    },
+    "application": {
+      "eyebrow": "04 / APPLIKATIONEN",
+      "title": "Från översikt till detaljerad undersökning.",
+      "p1": "Applikationen samlar övervakningsöversikter, information om enskilda enheter och historiska analyser. Vyerna hjälper användaren att gå från att upptäcka ett potentiellt problem till att undersöka bakomliggande mätvärden."
+    },
+    "dashboard": {
+      "eyebrow": "05 / ÖVERVAKNINGSDASHBOARD",
+      "title": "En tydligare överblick över enheternas aktivitet.",
+      "p1": "Dashboarden visar viktiga övervakningsindikatorer för CPU-temperatur, RAM-användning och omstarter. Sammanfattande mätvärden och trenddiagram gör det enklare att identifiera mönster bland de övervakade enheterna.",
+      "p2": "Varningslistor lyfter fram potentiellt avvikande värden och hjälper användaren att identifiera vilka enheter som kan behöva undersökas närmare. Rapporteringsstatus skiljer också mellan enheter som rapporterar normalt, är försenade eller är offline."
+    },
+    "details": {
+      "eyebrow": "06 / ENHETSDETALJER",
+      "title": "Att undersöka enskilda enheter.",
+      "p1": "Detaljvyn ger en närmare inblick i de elektroniska övervakningsenheter som finns installerade i bussarna. Användaren kan undersöka information om specifika enheter istället för att enbart utgå från dashboardens sammanfattningar.",
+      "p2": "CPU-temperatur, minnesanvändning, omstarter och rapporteringsinformation ger ytterligare sammanhang vid undersökning av avvikande beteenden. Historiska mätvärden hjälper användaren att förstå hur enhetens aktivitet förändras över tid."
+    },
+    "analytics": {
+      "eyebrow": "07 / HISTORISK ANALYS",
+      "title": "Att omvandla historiska data till insikter.",
+      "p1": "Historiska analyser gör det möjligt att undersöka mätvärden över tid, jämföra perioder och identifiera mönster som kanske inte syns i enskilda mätningar.",
+      "p2": "Genom att visualisera historisk CPU-temperatur, RAM-användning och omstarter blir stora mängder övervakningsdata lättare att tolka och undersöka."
+    },
+    "teamwork": {
+      "eyebrow": "08 / GRUPPARBETE OCH MINA BIDRAG",
+      "title": "Från ett grupprojekt med fyra studenter till självständigt ansvar.",
+      "teamTitle": "Universitetsfasen – fyra studenter",
+      "p1": "Vi utvecklade den första övervakningsapplikationen som ett kursprojekt för ett företag. Vi deltog i det gemensamma mötet med företagets representanter, diskuterade deras övervakningsutmaningar och prioriterade ett avgränsat antal funktioner. Gruppen implementerade den första dashboarden och övervakningsfunktionerna inom kursens tidsram.",
+      "independentTitle": "Den självständiga fasen – vidareutveckling för portfolio",
+      "p2": "Efter kursen fortsatte jag att arbeta med projektet på egen hand. Jag byggde ut detaljvyn för enheterna, lade till funktionalitet för rapporteringsstatus, vidareutvecklade analyser och visualiseringar, förbättrade tjänster och dataåtkomst, införde automatiserade tester och förberedde en fristående demonstration med syntetiska data.",
+      "p3": "Övervakning av CPU-temperatur, RAM och omstarter ingick redan i det ursprungliga grupprojektet. Mitt senare arbete handlade därför om att vidareutveckla och förbättra det befintliga systemet, inte att skapa dessa delar från grunden."
+    },
+    "technical": {
+      "eyebrow": "09 / TEKNISK LÖSNING",
+      "title": "Att bygga för tydlighet och underhållbarhet.",
+      "p1": "Applikationen använder ASP.NET Core MVC, Razor och JavaScript för presentation, tjänster för affärslogik och repositories för dataåtkomst mot MongoDB. Modeller och DTO:er strukturerar informationen som skickas mellan lagren.",
+      "architecture": {
+        "views": "Razor-vyer och JavaScript",
+        "controllers": "Controllers / API",
+        "services": "Tjänster",
+        "repositories": "Repositories",
+        "database": "MongoDB"
+      },
+      "p2": "I den självständigt vidareutvecklade versionen används automatiserade tester för att verifiera tjänsternas beteende. Syntetiska data gör det möjligt att demonstrera applikationen utan att ansluta till företagets produktionsmiljö."
+    },
+    "reflection": {
+      "eyebrow": "10 / REFLEKTION",
+      "title": "Programvaruutveckling börjar med att förstå problemet.",
+      "p1": "Projektet visade mig hur viktigt det är att förstå verksamhetens sammanhang bakom tekniska krav. Den mest användbara övervakningsinformationen är inte nödvändigtvis den största mängden data, utan den information som hjälper någon att upptäcka och undersöka ett relevant problem.",
+      "p2": "Arbetet inom universitetets tidsram lärde mig om avgränsning och prioritering. Genom att fortsätta självständigt fick jag erfarenhet av att vidareutveckla en befintlig kodbas, förbättra dess struktur och ta ansvar för kvaliteten.",
+      "p3": "Möjliga framtida förbättringar är tröskelvärden anpassade efter hårdvarutyp, ytterligare analys av diskanvändning och närliggande enheter samt användbarhetsfeedback på den utbyggda dashboarden. Detta är tänkbara nästa steg, inte funktioner som redan är färdigutvecklade."
+    }
+  },
+  "explore": "Utforska fler projekt"
+}

@@ -1,0 +1,148 @@
+{
+  "navigation": {
+    "home": "Hem",
+    "projects": "Projekt",
+    "about": "Om mig",
+    "contact": "Kontakt"
+  },
+  "layout": {
+    "skip": "Hoppa till huvudinnehållet",
+    "brandSuffix": "produkt & teknik",
+    "mainNavigation": "Huvudnavigation",
+    "language": "Välj språk",
+    "getInTouch": "Kontakta mig",
+    "letsTalk": "Kontakta mig",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn"
+  },
+  "home": {
+    "eyebrow": "INFORMATIK · SYSTEMUTVECKLING",
+    "greeting": "Hej, jag heter {{name}}",
+    "description": "Jag studerar informatik med inriktning systemutveckling vid Mittuniversitetet. Genom universitetsprojekt och mitt arbete som amanuens har jag fått erfarenhet av programvaruutveckling, problemlösning och samarbete. Jag är särskilt intresserad av att förstå användarnas behov, utveckla digitala lösningar och bidra till planering och samordning av projekt.",
+    "explore": "Utforska mina projekt",
+    "aboutLink": "Mer om mig",
+    "availability": "Öppen för heltids- och deltidsmöjligheter",
+    "viewCV": "Visa CV",
+    "glance": {
+      "heading": "Kort om mig",
+      "education": "Informatikstudent",
+      "educationDescription": "Mittuniversitetet · Examen 2027 ",
+      "work": "Amanuens",
+      "workDescription": "Handleder studenter inom programmering och systemutveckling samt bedömer och betygsätter studentuppgifter.",
+      "technical": "Teknisk bakgrund",
+      "technicalDescription": "Erfarenhet av webb-, desktop- och Androidutveckling."
+    },
+    "interests": {
+      "heading": "Det här intresserar mig",
+      "description": "Jag är intresserad av mer än bara slutprodukten - jag vill förstå människorna, besluten och processerna bakom den.",
+      "product": {
+        "title": "Produktutveckling",
+        "description": "Att förstå användarnas behov och utforska hur digitala lösningar kan lösa verkliga problem."
+      },
+      "planning": {
+        "title": "Struktur & planering",
+        "description": "Att bryta ner problem, organisera uppgifter och hitta en tydlig väg från idé till genomförande."
+      },
+      "collaboration": {
+        "title": "Människor & samarbete",
+        "description": "Att arbeta tillsammans med andra, utbyta idéer och lära av olika perspektiv."
+      }
+    },
+    "projects": {
+      "heading": "Utvalda projekt",
+      "all": "Alla projekt",
+      "caseStudy": "Visa projektbeskrivning",
+      "stilliaGroundingAlt": "Stillias avslappningsfunktion",
+      "stilliaHomeAlt": "Stillias startsida med översikt över skärmanvändning",
+      "stilliaStatisticsAlt": "Stillias veckostatistik över skärmanvändning",
+      "vehicleAlt": "Vehicle Monitorings dashboard med statistik och diagram över enheter"
+    }
+  },
+  "contact": {
+    "titleFirst": "Hör av",
+    "titleAccent": "dig.",
+    "description": "Har du ett jobberbjudande, en fråga eller vill du bara komma i kontakt? Jag hör gärna från dig.",
+    "email": "E-post",
+    "linkedin": "Ta kontakt med mig på LinkedIn",
+    "github": "Utforska mina projekt på GitHub"
+  },
+  "about": {
+    "title": "Om",
+    "titleAccent": "mig.",
+    "greeting": "Lite mer om mig.",
+    "intro1": "Jag tycker att det mest intressanta med systemutveckling är att förstå varför en lösning behövs och hur den kan göra nytta för användaren. Jag gillar att kombinera tekniskt arbete med idéutveckling, planering och problemlösning.",
+    "intro2": "Genom mina studier och egna projekt har jag fått erfarenhet av olika delar av utvecklingsprocessen, från att analysera behov och utforma lösningar till att implementera och testa dem.Min bakgrund inom utbildning, arbetsledning och internationell service har gjort mig van vid att samarbeta med olika människor, ta ansvar och anpassa mig till nya situationer.",
+    "connect": "Ta kontakt",
+    "skillsHeading": "Kompetenser & kunskaper",
+    "skillsDescription": "En kombination av tekniska kunskaper och produktorienterade kompetenser som jag utvecklat genom studier och projekt.",
+    "skillGroups": {
+      "product": "Produkt- & projektarbete",
+      "programming": "Programmeringsspråk",
+      "frameworks": "Ramverk & utveckling",
+      "tools": "Databaser & verktyg"
+    },
+    "skills": {
+      "requirements": "Kravanalys",
+      "coordination": "Projektkoordinering",
+      "ux": "UX & prototyper",
+      "testing": "Programvarutestning",
+      "collaboration": "Teamsamarbete"
+    },
+    "factsHeading": "5 roliga fakta om mig",
+    "factsDescription": "Några saker som du inte hittar i mina projektbeskrivningar.",
+    "facts": {
+      "finland": {
+        "title": "Född i Finland",
+        "description": "Jag var bara tre månader gammal när jag bastade för första gången."
+      },
+      "travel": {
+        "title": "Inte alltid i Sverige",
+        "description": "Svensk i passet, men min resväska får sällan vila."
+      },
+      "lists": {
+        "title": "Listor till allt",
+        "description": "Jag skriver att göra-listor. Ibland lägger jag till saker jag redan gjort bara för att kunna bocka av dem."
+      },
+      "yahtzee": {
+        "title": "Yatzy-mästare",
+        "description": "Jag vinner alltid i Yatzy. Och ja, jag är väldigt ödmjuk med det."
+      },
+      "coffee": {
+        "title": "Kaffe först",
+        "description": "Min produktivitet kanske drivs av koffein. Forskningen pågår."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "PORTFOLIO / UTVALDA PROJEKT",
+    "title": "Utvalda",
+    "titleAccent": "projekt.",
+    "description": "Jag är intresserad av hur produkter växer fram - från problemet vi försöker lösa till tekniken och besluten bakom lösningen. ",
+    "challenge": "Utmaning",
+    "approach": "Tillvägagångssätt",
+    "takeaway": "Viktigaste lärdomen",
+    "viewCaseStudy": "Visa hela projektbeskrivningen",
+    "vehicleAlt": "Vehicle Monitorings dashboard med diagram över enheternas mätvärden",
+    "stilliaGroundingAlt": "Stillias avslappningsfunktion",
+    "stilliaHomeAlt": "Stillias startsida",
+    "stilliaStatisticsAlt": "Stillias statistikvy"
+  },
+  "projectData": {
+    "vehicle": {
+      "category": "UNIVERSITETS- OCH FÖRETAGSPROJEKT",
+      "summary": "En dashboard för övervakning av elektroniska enheter installerade i bussar, utvecklad i samarbete med ett företag och senare vidareutvecklad självständigt.",
+      "problem": "Att omvandla historiska mätvärden från enheter ombord på bussar till tydligare information för teknisk övervakning.",
+      "approach": "Dialog med företagets representanter, prioritering av funktioner, utveckling i grupp och självständiga förbättringar.",
+      "learning": "Att företag inte alltid har en tydlig bild av vilken lösning de behöver, och att det därför är viktigt att förstå verksamhetens verkliga behov, ställa rätt frågor och prioritera funktioner som skapar värde.",
+      "note": "Projektbeskrivning med bilder från dashboard, enhetsdetaljer och analyser."
+    },
+    "stillia": {
+      "category": "PRODUKTUTVECKLING",
+      "summary": "En mobilapp som hjälper användare att utveckla mer medvetna skärmvanor genom skärmtidsinsikter, mindfulness och guidade andningsövningar (breathwork).",
+      "problem": "Att hjälpa människor förstå sina digitala vanor utan att skapa press kring förändring.",
+      "approach": "Mobilflöden, användningsstatistik, designiterationer och en demonstrationsversion.",
+      "learning": "Att balansera produktmål, användbarhet och tekniska begränsningar.",
+      "note": "Projektbeskrivning med appbilder, statistik och demonstrationer av funktioner."
+    }
+  }
+}

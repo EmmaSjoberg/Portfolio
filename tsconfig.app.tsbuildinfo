@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/config.ts","./src/i18n.ts","./src/main.tsx","./src/projects.ts","./src/components/layout.tsx","./src/components/projectsection.tsx","./src/components/scrolltotop.tsx","./src/pages/about.tsx","./src/pages/contact.tsx","./src/pages/home.tsx","./src/pages/projects.tsx","./src/pages/stillia.tsx","./src/pages/vehiclemonitoring.tsx"],"version":"5.9.3"}

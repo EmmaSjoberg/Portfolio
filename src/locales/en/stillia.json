@@ -1,0 +1,261 @@
+{
+  "back": "All projects",
+  "description": "An Android app that encourages more mindful screen-time habits through usage statistics, reminders, and guided breathing exercises.",
+  "idea": {
+    "eyebrow": "The idea behind Stillia",
+    "heading": "Awareness, not restriction.",
+    "paragraph1": "What if a screen-time application helped people recognize their habits instead of simply blocking access?",
+    "paragraph2": "Stillia helps users become more aware of their screen time without restricting their phone usage. Users choose how long a session should last and receive two short vibrations two minutes before it ends. When the session ends, a 30-second animation with vibrations encourages users to slow down and focus on their pulse. Afterwards, users can choose whether or not to continue with a guided breathing exercise (breathwork).",
+    "technology": "Android · Kotlin · UX Design · Requirements Engineering",
+    "imageAlt": "Stillia grounding experience with a heartbeat-inspired animation"
+  },
+  "meta": {
+    "origin": "Origin",
+    "originValue": "Individual university B-level project in Informatics",
+    "collaboration": "Collaboration",
+    "collaborationValue": "Developed in collaboration with a startup company",
+    "role": "My role",
+    "roleValue": "Sole developer · Research · UX · Requirements · Testing",
+    "technology": "Technology",
+    "technologyValue": "Android / Kotlin / Jetpack Compose"
+  },
+  "sections": {
+    "challenge": {
+      "eyebrow": "THE CHALLENGE",
+      "heading": "- From automatic scrolling to conscious choices.",
+      "p1": "Smartphones make it easy to move between social media, entertainment and other applications without noticing how much time has passed. What begins as a short interaction can become a much longer session than originally intended.",
+      "p2": "Many existing digital wellbeing tools focus on monitoring usage, enforcing limits or blocking applications. Stillia explores whether a less restrictive approach can support awareness while allowing users to remain in control.",
+      "p3": "The central design challenge was to create a reminder that users would notice without making the experience stressful, judgmental or unnecessarily disruptive."
+    },
+    "research": {
+      "eyebrow": "USER RESEARCH",
+      "heading": "- Understanding habits before designing solutions.",
+      "p1": "I conducted a user survey with 40 respondents to explore screen-time habits, interest in the concept and preferences for different types of reminders.",
+      "p2": "The results suggested that unplanned screen use was a familiar problem for many participants and that there was initial interest in a gentler approach.",
+      "p3": "Social media and short-form videos were the activities most often associated with using a phone longer than intended.",
+      "p4": "Open-ended responses provided additional perspectives. Participants emphasized simplicity, flexible reminders and the importance of avoiding interruptions during intentional or work-related phone use.",
+      "p5": "Suggestions also included saving a preferred session duration and providing clearer information about usage patterns across applications and time periods.",
+      "p6": "These findings helped me identify opportunities for the product design. They represent initial preferences and stated interest, rather than evidence of long-term behavioural change."
+    },
+    "competitors": {
+      "eyebrow": "COMPETITOR RESEARCH",
+      "heading": "- Exploring what already exists.",
+      "p1": "Before developing the solution, I examined existing approaches to digital wellbeing, screen-time management and mindfulness.",
+      "p2": "My research included tools such as Android Digital Wellbeing, Apple Screen Time, Forest, One Sec and Opal, alongside mindfulness applications including Calm, Headspace and The Breathing App.",
+      "p3": "This comparison helped me shape the product direction: focusing on awareness and personal choice rather than making blocking or gamification the central interaction."
+    },
+    "requirements": {
+      "eyebrow": "REQUIREMENTS & DESIGN",
+      "heading": "- Turning research into product decisions.",
+      "p1": "I created and managed a structured list of 58 numbered requirements. They covered the entire experience, including onboarding, session management, heartbeat-inspired signals, the pause feature, breathing exercises and daily screen-time goals.",
+      "p2": "I documented requirements with priorities and implementation statuses to support development planning and follow-up.",
+      "p3": "These examples illustrate how research findings and product requirements informed my design decisions. I continued refining some features after completing the university project."
+    },
+    "experience": {
+      "eyebrow": "THE CORE EXPERIENCE",
+      "heading": "- A pause at the right moment.",
+      "p1": "Before using a selected application, users can choose how long they intend to spend there. Stillia suggests durations based on the application category while leaving the final decision to the user.",
+      "p2": "This creates an opportunity to make a conscious decision before beginning an activity that might otherwise continue automatically.",
+      "p3": "When the selected session time ends, Stillia activates a pause sequence designed to shift attention away from the screen and toward the body.",
+      "p4": "Rather than immediately blocking access, the experience introduces a gradual transition using animation and haptic feedback.",
+      "p5": "The sequence begins with a pulsing animation accompanied by vibrations inspired by a heartbeat. The rhythm is based on a resting heart rate entered by the user.",
+      "p6": "Users can optionally begin a guided breathing exercise by holding their thumb against the centre of the animation.",
+      "p7": "The exercise includes four levels with repeated cycles of inhaling, holding, exhaling and holding again. The intervals increase from two to four, six and eight seconds across the levels.",
+      "p8": "The entire breathing exercise takes almost eight minutes. The video shows a shortened version before moving to the final stage, where the screen gradually fades to black.",
+      "p9": "The breathing interaction is optional and can be interrupted. The goal is to encourage a conscious pause rather than force the user to stop using their phone."
+    },
+    "application": {
+      "eyebrow": "THE APPLICATION",
+      "heading": "- Designed around personal control.",
+      "p1": "Stillia brings together session management, the pause feature, personal settings and screen-time statistics in an Android app.",
+      "p2": "Users can adjust preferences and configure how they interact with the application. Personal control was an important consideration throughout my design process."
+    },
+    "statistics": {
+      "eyebrow": "USAGE INSIGHTS",
+      "heading": "- Making screen-time patterns easier to understand.",
+      "p1": "In addition to individual sessions, Stillia provides an overview of screen-time habits. The home screen shows daily usage in relation to a personal goal and breaks down activity by category.",
+      "p2": "Weekly and monthly statistics allow users to explore usage over time, while session history provides a record of previous interactions."
+    },
+    "development": {
+      "eyebrow": "DEVELOPMENT & TESTING",
+      "heading": "- Iterating through implementation and evaluation.",
+      "p1": "I developed the Android application using Kotlin and Jetpack Compose, with supporting backend functionality built using Java and Spring Boot.",
+      "p2": "Throughout the project, I worked with interface design, application logic, Android platform functionality and iterative testing.",
+      "p3": "I used planned functional tests, user evaluations and ad hoc testing to investigate how the application behaved in different situations.",
+      "p4": "During ad hoc testing, I identified an issue where picture-in-picture video could continue playing during the pause sequence. The issue was documented as fixed in the original test log.",
+      "p5": "Another recorded issue concerned permission information remaining visible after the required permission had been granted. This was still marked as open in the original test log.",
+      "p6": "These findings demonstrated the importance of testing Android system interactions, particularly for an application designed to work alongside other apps.",
+      "p7": "The evaluations provided feedback on the prototype's functionality and usability. They did not establish whether Stillia produces sustained reductions in screen time."
+    },
+    "context": {
+      "eyebrow": "PROJECT CONTEXT",
+      "heading": "- From a university project to Stillia.",
+      "p1": "Stillia originated as an individual university B-level project in Informatics, carried out in collaboration with a startup company.",
+      "p2": "I was solely responsible for the project's user research, competitor analysis, requirements engineering, UX design, Android development and testing.",
+      "p3": "Following the university project, I continued developing and refining the application, including its visual identity, statistics, interface consistency and demo functionality.",
+      "p4": "This case study presents my work across the complete product development process, from initial research and planning to implementation, evaluation and iteration."
+    },
+    "reflection": {
+      "eyebrow": "REFLECTION",
+      "heading": "- Building around the user, not just the technology.",
+      "p1": "Stillia gave me the opportunity to take responsibility for an entire product development process, from understanding a problem and evaluating existing solutions to defining requirements, designing interactions, implementing functionality and testing the result.",
+      "p2": "One of the most interesting challenges was finding a balance between helpful feedback and respect for the user’s autonomy. A reminder needs to be noticeable to encourage awareness, but should not be so disruptive that it creates frustration.",
+      "p3": "Working independently also required me to prioritize features, make technical and design decisions and evaluate the results throughout development.",
+      "p4": "The project strengthened my interest in combining technical development with user experience, research, requirements engineering and thoughtful product decisions."
+    }
+  },
+  "research": {
+    "unplannedHeading": "Where does unplanned screen time happen?",
+    "feedbackHeading": "What did users tell me?"
+  },
+  "requirements": {
+    "decisionsHeading": "From findings to design decisions",
+    "userNeed": "USER NEED",
+    "designResponse": "DESIGN RESPONSE"
+  },
+  "experience": {
+    "sessionHeading": "Choose your session length",
+    "groundingHeading": "A pause when time is up",
+    "howHeading": "How the pause feature works"
+  },
+  "application": {
+    "settingsHeading": "Personal settings"
+  },
+  "statistics": {
+    "galleryHeading": "Usage statistics"
+  },
+  "development": {
+    "findingsHeading": "Examples of findings"
+  },
+  "video": {
+    "sessionAria": "Stillia session length demonstration",
+    "sessionCaption": "Choosing a session length before using an app.",
+    "groundingAria": "Demonstration of Stillia’s pause feature",
+    "groundingCaption": "Demonstration of the pause feature.",
+    "unsupported": "Your browser does not support video playback."
+  },
+  "survey": {
+    "respondents": {
+      "value": "40",
+      "label": "Survey respondents",
+      "description": "Participants in the user survey"
+    },
+    "unplanned": {
+      "value": "67.5%",
+      "label": "Unplanned screen time",
+      "description": "Often used their phone longer than intended"
+    },
+    "interest": {
+      "value": "82.5%",
+      "label": "Concept interest",
+      "description": "Rated their interest 4 or 5 out of 5"
+    },
+    "signals": {
+      "value": "80%",
+      "label": "Positive toward subtle signals",
+      "description": "Responded positively or fairly positively"
+    }
+  },
+  "activities": {
+    "social": "Social media",
+    "shortVideo": "Short-form video",
+    "gaming": "Gaming",
+    "streaming": "Streaming / video",
+    "other": "Other"
+  },
+  "decisions": {
+    "longer": {
+      "finding": "People often spend longer in apps than they intend.",
+      "decision": "Introduce intentional sessions where users choose a duration before starting."
+    },
+    "subtle": {
+      "finding": "Users expressed interest in subtle, non-intrusive feedback.",
+      "decision": "Explore heartbeat-inspired vibration and animation instead of relying only on conventional alerts."
+    },
+    "control": {
+      "finding": "Users wanted flexibility and control over their experience.",
+      "decision": "Support personal settings, selected applications and user-controlled sessions."
+    },
+    "insights": {
+      "finding": "Users wanted to better understand their screen-time habits.",
+      "decision": "Present daily usage, category breakdowns and weekly and monthly statistics."
+    }
+  },
+  "features": {
+    "sessions": {
+      "title": "Intentional sessions",
+      "text": "Choose how long to use a selected app, with suggested durations based on its category and the freedom to end a session early."
+    },
+    "grounding": {
+      "title": "Pause feature",
+      "text": "A heartbeat-inspired animation and vibration sequence creates a gentle pause when the selected time ends."
+    },
+    "breathing": {
+      "title": "Optional breathwork",
+      "text": "An interactive breathing exercise combines visual guidance and haptic feedback without requiring users to complete the full sequence."
+    },
+    "insights": {
+      "title": "Usage insights",
+      "text": "Explore daily screen time, weekly and monthly trends, usage categories and previous sessions."
+    },
+    "interface": {
+      "title": "Customizable interface",
+      "text": "Subtle colour changes show how usage compares with a personal daily screen-time goal."
+    },
+    "demo": {
+      "title": "Demo mode",
+      "text": "Demonstrate important interactions and explore the interface without relying on a physical Android device."
+    }
+  },
+  "competitorCards": {
+    "blocking": {
+      "title": "Limits and blocking",
+      "description": "Screen-time tools commonly help users monitor usage, set limits or restrict access to selected applications."
+    },
+    "mindfulness": {
+      "title": "Mindfulness and breathing",
+      "description": "Mindfulness applications provide guided activities, but typically require users to actively start a separate exercise."
+    },
+    "approach": {
+      "title": "Stillia's approach",
+      "description": "The concept combines intentional sessions with gentle, body-oriented signals during ongoing smartphone use."
+    }
+  },
+  "requirementCards": {
+    "count": {
+      "title": "58 requirements",
+      "description": "A structured backlog covering functional, technical and user-experience considerations."
+    },
+    "design": {
+      "title": "User-centred design",
+      "description": "An emphasis on clear interactions, low-stimulation feedback and personal control."
+    },
+    "android": {
+      "title": "Android constraints",
+      "description": "Design and implementation decisions also needed to account for device permissions and platform behaviour."
+    }
+  },
+  "developmentCards": {
+    "functional": {
+      "title": "Functional testing",
+      "description": "Evaluating important application flows, including sessions, interactions and supporting functionality."
+    },
+    "evaluation": {
+      "title": "User evaluation",
+      "description": "Gathering feedback about usability, clarity and how users experienced the prototype."
+    },
+    "issues": {
+      "title": "Issue tracking",
+      "description": "Documenting observed problems, their status and opportunities for improvement."
+    }
+  },
+  "settingsImages": {
+    "preferences": "Personal preferences"
+  },
+  "statisticsImages": {
+    "home": "Home screen",
+    "weekly": "Weekly statistics",
+    "weeklyInsights": "Weekly insights",
+    "monthly": "Monthly statistics"
+  }
+}

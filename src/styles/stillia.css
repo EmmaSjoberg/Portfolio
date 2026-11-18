@@ -1,0 +1,434 @@
+.stillia-study {
+  --stillia-green-dark: #2d493a;
+  --stillia-green: #537961;
+  --stillia-green-muted: #587060;
+  --stillia-text-muted: #6a7e70;
+  --stillia-border: #dfe8e1;
+  --stillia-surface: #f5f8f4;
+  --stillia-radius: 16px;
+}
+
+.stillia-study .project-section {
+  min-width: 0;
+}
+
+.stillia-study .project-section > h3 {
+  margin: 30px 0 12px;
+  color: var(--stillia-green-dark);
+  font-size: clamp(19px, 2.2vw, 22px);
+  line-height: 1.35;
+}
+
+.stillia-study .project-section > h3:first-of-type {
+  margin-top: 24px;
+}
+
+.stillia-study .project-section > p {
+  max-width: 780px;
+  line-height: 1.8;
+}
+
+.stillia-study .project-section > p + p {
+  margin-top: 12px;
+}
+
+.stillia-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+  padding: 34px;
+  overflow: hidden;
+  border: 1px solid #dbe7de;
+  border-radius: 20px;
+  background: linear-gradient(125deg, #e3eee6, #edf4ed 50%, #f6f8f3);
+}
+
+.stillia-hero-copy,
+.stillia-hero-image {
+  min-width: 0;
+}
+
+.stillia-hero-copy h2 {
+  margin: 14px 0 18px;
+  color: var(--stillia-green-dark);
+  font-size: clamp(28px, 3vw, 35px);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+
+.stillia-hero-copy p {
+  max-width: 560px;
+  margin: 0 0 14px;
+  color: var(--stillia-green-muted);
+  line-height: 1.75;
+}
+
+.stillia-hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.stillia-hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stillia-hero-image img {
+  display: block;
+  width: 100%;
+  max-width: 205px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px #254a3320;
+}
+
+.stillia-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 28px;
+}
+
+.stillia-feature {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid #e0e9e2;
+  border-radius: var(--stillia-radius);
+  background: #fff;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.stillia-feature:hover {
+  border-color: #bdd3c2;
+  box-shadow: 0 8px 24px rgb(37 74 51 / 6%);
+  transform: translateY(-2px);
+}
+
+.stillia-feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  background: #edf4ee;
+  color: var(--stillia-green);
+}
+
+.stillia-feature h3 {
+  margin: 0 0 10px;
+  color: #2d4b3a;
+  font-size: 18px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.stillia-feature > strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--stillia-green-dark);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.stillia-feature p {
+  margin: 0;
+  color: var(--stillia-text-muted);
+  font-size: 16px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.stillia-feature p + p {
+  margin-top: 12px;
+}
+
+.stillia-feature .eyebrow {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.stillia-feature .eyebrow:not(:first-child) {
+  margin-top: 22px;
+}
+
+.stillia-study .stillia-survey-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stillia-survey-grid .stillia-feature {
+  border-color: #dce8de;
+  background: linear-gradient(155deg, #f4f8f3, #fff);
+}
+
+.stillia-survey-grid .stillia-feature h3 {
+  margin-bottom: 12px;
+  color: var(--stillia-green-dark);
+  font-size: clamp(27px, 3vw, 38px);
+  font-weight: 750;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+
+.stillia-study .stillia-activities-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.stillia-activities-grid .stillia-feature {
+  padding: 18px;
+  background: var(--stillia-surface);
+}
+
+.stillia-activities-grid .stillia-feature h3 {
+  font-size: 23px;
+  letter-spacing: -0.02em;
+}
+
+.stillia-study .stillia-decisions-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stillia-decisions-grid .stillia-feature {
+  position: relative;
+  padding: 26px;
+  background: linear-gradient(160deg, #fff, #f7faf7);
+}
+
+.stillia-decisions-grid .stillia-feature .eyebrow {
+  color: #66836e;
+}
+
+.stillia-decisions-grid .stillia-feature p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.stillia-decisions-grid .stillia-feature p:first-of-type {
+  color: #465c4c;
+}
+
+.stillia-decisions-grid .stillia-feature p:last-of-type {
+  color: var(--stillia-green-dark);
+  font-weight: 600;
+}
+
+.stillia-video-section {
+  margin: 24px 0 30px;
+  padding: 24px;
+  border: 1px solid var(--stillia-border);
+  border-radius: 18px;
+  background: var(--stillia-surface);
+  text-align: center;
+}
+
+.stillia-video {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  max-height: 530px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: #18241e;
+  object-fit: contain;
+}
+
+.stillia-video-caption {
+  max-width: 440px;
+  margin: 14px auto 0;
+  color: #718276;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.stillia-gallery {
+  margin-top: 34px;
+}
+
+.stillia-gallery h3 {
+  margin: 0 0 12px;
+  color: var(--stillia-green-dark);
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.stillia-gallery > p {
+  max-width: 760px;
+  margin-bottom: 18px;
+  line-height: 1.75;
+}
+
+.stillia-screenshot-grid {
+  display: grid;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.stillia-settings-grid {
+  grid-template-columns: repeat(3, minmax(0, 205px));
+}
+
+.stillia-statistics-grid {
+  grid-template-columns: repeat(2, minmax(0, 205px));
+}
+
+.stillia-screenshot-grid figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.stillia-screenshot-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgb(37 74 51 / 8%);
+}
+
+.stillia-screenshot-grid figcaption {
+  margin-top: 12px;
+  color: #718276;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .stillia-study .stillia-survey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stillia-study .stillia-activities-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 850px) {
+  .stillia-hero {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 28px;
+  }
+
+  .stillia-hero-image img {
+    max-width: 230px;
+  }
+
+  .stillia-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .stillia-settings-grid,
+  .stillia-statistics-grid {
+    grid-template-columns: repeat(2, minmax(0, 190px));
+  }
+
+  .stillia-study .stillia-decisions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stillia-study .stillia-activities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 540px) {
+  .stillia-hero {
+    padding: 22px;
+    border-radius: 16px;
+  }
+
+  .stillia-hero-copy h2 {
+    font-size: clamp(29px, 8vw, 38px);
+  }
+
+  .stillia-hero-copy p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .stillia-hero-image img {
+    max-width: 220px;
+  }
+
+  .stillia-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .stillia-feature {
+    padding: 20px;
+  }
+
+  .stillia-study .stillia-survey-grid,
+  .stillia-study .stillia-activities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stillia-survey-grid .stillia-feature {
+    padding: 16px;
+  }
+
+  .stillia-survey-grid .stillia-feature h3 {
+    font-size: 28px;
+  }
+
+  .stillia-video-section {
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  .stillia-video {
+    max-width: 100%;
+    max-height: 500px;
+  }
+
+  .stillia-gallery {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 430px) {
+  .stillia-settings-grid,
+  .stillia-statistics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .stillia-screenshot-grid figcaption {
+    font-size: 0.78rem;
+  }
+
+  .stillia-study .stillia-survey-grid {
+    gap: 10px;
+  }
+
+  .stillia-survey-grid .stillia-feature,
+  .stillia-activities-grid .stillia-feature {
+    padding: 14px;
+  }
+
+  .stillia-survey-grid .stillia-feature h3 {
+    font-size: 25px;
+  }
+
+  .stillia-activities-grid .stillia-feature h3 {
+    font-size: 20px;
+  }
+}

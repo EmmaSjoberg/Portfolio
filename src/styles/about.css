@@ -1,0 +1,160 @@
+.about-page .page-intro {
+  margin-bottom: 28px;
+}
+
+.about-introduction {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  max-width: 950px;
+  margin-bottom: 56px;
+}
+
+.about-small-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #e4ede6;
+  color: #527963;
+  font-family: Georgia, serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.about-introduction-copy {
+  max-width: 720px;
+}
+
+.about-introduction-copy h2 {
+  margin: 0 0 12px;
+  color: #243d33;
+  font-size: 27px;
+}
+
+.about-introduction-copy p {
+  margin: 0 0 13px;
+  color: #405b4c;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.about-introduction-copy .inline-link {
+  margin-top: 8px;
+}
+
+.about-skills-section {
+  margin-bottom: 58px;
+}
+
+.about-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.about-skill-card {
+  padding: 25px;
+  border: 1px solid #dfe8e1;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.about-skill-card h3 {
+  margin: 0 0 18px;
+  color: #243d33;
+  font-size: 18px;
+}
+
+.about-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.about-skill-tags span {
+  padding: 8px 12px;
+  border-radius: 7px;
+  background: #eef3ee;
+  color: #365b45;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.about-personal-section {
+  margin-bottom: 30px;
+}
+
+.about-personal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.about-personal-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #dfe8e1;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.about-fact-number {
+  display: block;
+  margin-bottom: 19px;
+  color: #6b9179;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.about-personal-card h3 {
+  margin: 0 0 9px;
+  color: #243d33;
+  font-size: 16px;
+}
+
+.about-personal-card p {
+  margin: 0;
+  color: #526d5c;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+  .about-introduction {
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 42px;
+  }
+
+  .about-small-avatar {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .about-introduction-copy h2 {
+    font-size: 24px;
+  }
+
+  .about-skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-personal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .about-skill-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-personal-grid {
+    grid-template-columns: 1fr;
+  }
+}

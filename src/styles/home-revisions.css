@@ -1,0 +1,136 @@
+.hero-revised {
+  min-height: 0;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.hero-revised .hero-copy {
+  padding: 0;
+}
+
+.hero-revised h1 {
+  margin: 20px 0;
+  font-size: clamp(44px, 4.5vw, 68px);
+}
+
+.hero-revised .hero-description {
+  max-width: 590px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.hero-revised .eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+}
+
+.hero-revised .button {
+  font-size: 14px;
+}
+
+.hero-revised .small-accent {
+  font-size: 13px;
+}
+
+.button-outline {
+  border: 1px solid #d5dfd6;
+  background: transparent;
+  color: #31473d;
+}
+
+.button-outline:hover {
+  background: #eef4ee;
+}
+
+.hero-quicklinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 24px;
+}
+
+.hero-quicklinks a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #314a3d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.hero-quicklinks a:hover {
+  color: #1d392e;
+}
+
+.hero-revised .hero-info.hero-story {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 28px;
+  border: 1px solid #e0e9df;
+  border-radius: 16px;
+  background: #eef3ed;
+}
+
+.hero-revised .hero-info .story-steps {
+  margin-top: 0;
+}
+
+.hero-story .story-steps strong {
+  font-size: 17px;
+}
+
+.hero-story .story-steps p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.button,
+.nav-cta,
+.nav-link {
+  font-size: 15px;
+}
+
+.hero-revised .hero-info .story-steps > div:first-child {
+  border-top: none;
+}
+
+@media (max-width: 950px) {
+  .hero-revised {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-revised {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .hero-revised h1 {
+    font-size: clamp(40px, 10vw, 55px);
+  }
+
+  .hero-revised .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-story .story-steps p {
+    font-size: 14px;
+  }
+
+  .hero-quicklinks {
+    margin-top: 20px;
+  }
+
+  .button,
+  .nav-cta,
+  .nav-link {
+    font-size: 14px;
+  }
+}
+

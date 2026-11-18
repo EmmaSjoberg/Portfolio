@@ -1,0 +1,142 @@
+{
+  "back": "All projects",
+  "eyebrow": "UNIVERSITY–INDUSTRY COLLABORATION / PRODUCT & TECHNICAL CASE STUDY",
+  "titleFirst": "Vehicle",
+  "titleAccent": "Monitoring.",
+  "description": "Turning historical data from onboard electronic devices into clearer monitoring insights.",
+  "heroAlt": "Vehicle Monitoring dashboard showing device statistics and charts",
+  "meta": {
+    "context": "Context",
+    "contextValue": "Real-company university project, then independent development",
+    "team": "Team",
+    "teamValue": "Four students in the original project",
+    "stack": "Stack",
+    "stackValue": "C#, .NET, ASP.NET Core MVC, MongoDB, Razor, JavaScript",
+    "demo": "Demo data",
+    "demoValue": "Synthetic data, not company production data"
+  },
+  "screenshots": {
+    "dashboard": {
+      "first": {
+        "label": "Dashboard overview",
+        "alt": "Vehicle Monitoring dashboard with device metrics and charts"
+      },
+      "second": {
+        "label": "Alerts and monitoring",
+        "alt": "Dashboard screenshot showing monitoring alerts and device information"
+      }
+    },
+    "details": {
+      "first": {
+        "label": "Device details",
+        "alt": "Detailed monitoring information for an onboard device"
+      },
+      "second": {
+        "label": "Device telemetry",
+        "alt": "Device telemetry and monitoring history"
+      }
+    },
+    "analytics": {
+      "first": {
+        "label": "Historical analytics",
+        "alt": "Historical telemetry analytics in Vehicle Monitoring"
+      },
+      "second": {
+        "label": "Analytics overview",
+        "alt": "Additional analytics and monitoring visualizations"
+      }
+    }
+  },
+  "sections": {
+    "overview": {
+      "eyebrow": "01 / PROJECT OVERVIEW",
+      "title": "Monitoring Electronic Devices on Buses",
+      "p1": "Vehicle Monitoring is a web application for exploring telemetry from an electronic monitoring unit installed in each bus. The monitored information concerns the onboard unit's hardware and reporting behavior, such as CPU temperature, memory usage, restart activity and communication status. It does not assess the mechanical condition of the bus.",
+      "p2": "The project started as a university collaboration with a real company. Four students developed the initial version, and I continued improving the application independently after the course ended."
+    },
+    "challenge": {
+      "eyebrow": "02 / THE BUSINESS CHALLENGE",
+      "title": "From raw history to useful signals.",
+      "p1": "The company already had access to current and historical device information, but investigating trends and potential issues involved manually navigating records. They wanted statistics and visualizations that could make unusual behavior easier to detect and investigate.",
+      "p2": "During a class-wide stakeholder meeting, company representatives explained their environment and operational challenges, then answered students' questions. Discussion topics included unexpected restarts, disk usage, devices that stop reporting and differences between hardware types.",
+      "p3": "An important insight was that monitoring values need context: a high percentage of memory usage can be normal for one hardware type and concerning for another. Missing reports may also reflect a bus being out of service rather than a device failure."
+    },
+    "requirements": {
+      "eyebrow": "03 / REQUIREMENTS & PRIORITIZATION",
+      "title": "Choosing a manageable scope.",
+      "p1": "The company described several possible areas of analysis. Given the limited course timeframe, our team focused on CPU temperature, RAM usage and boot-counter data, informed by the company's description of recurring monitoring problems. I participated in choosing these focus areas.",
+      "features": {
+        "cpu": {
+          "title": "CPU temperature",
+          "description": "Make temperature history visible and help highlight potentially unusual readings."
+        },
+        "ram": {
+          "title": "RAM usage",
+          "description": "Present memory consumption in a way that supports investigation of device behavior."
+        },
+        "boot": {
+          "title": "Boot activity",
+          "description": "Use restart data to help identify unexpectedly frequent reboots."
+        },
+        "scope": {
+          "title": "Scope decisions",
+          "description": "Other ideas raised in the meeting, such as disk growth and neighbour-device monitoring, were not all implemented in this version."
+        }
+      },
+      "p2": "This was an opportunity to connect business needs to technical features while recognizing constraints and prioritizing a feasible first delivery."
+    },
+    "application": {
+      "eyebrow": "04 / THE APPLICATION",
+      "title": "From overview to detailed investigation.",
+      "p1": "The application brings together monitoring summaries, individual device information and historical analytics. These views help users move from identifying a potential issue to investigating the underlying telemetry."
+    },
+    "dashboard": {
+      "eyebrow": "05 / MONITORING DASHBOARD",
+      "title": "A clearer overview of device activity.",
+      "p1": "The dashboard presents key monitoring indicators for CPU temperature, RAM usage and boot activity. Summary metrics and trend visualizations make it easier to identify patterns across monitored devices.",
+      "p2": "Alert lists highlight potentially unusual readings, helping users identify which devices may require closer investigation. Reporting status also distinguishes between Reporting, Delayed and Offline devices."
+    },
+    "details": {
+      "eyebrow": "06 / DEVICE DETAILS",
+      "title": "Investigating individual devices.",
+      "p1": "The details view provides a closer look at the electronic monitoring units installed in buses. Users can explore device-specific information rather than relying only on dashboard summaries.",
+      "p2": "CPU temperature, memory usage, boot activity and reporting information provide additional context when investigating unusual behavior. Historical measurements help users understand how device activity changes over time."
+    },
+    "analytics": {
+      "eyebrow": "07 / HISTORICAL ANALYTICS",
+      "title": "Turning historical data into insights.",
+      "p1": "Historical analytics make it possible to explore telemetry over time, compare periods and identify patterns that may not be visible from individual measurements.",
+      "p2": "Visualizing historical CPU temperature, RAM usage and boot activity helps make large amounts of monitoring data easier to interpret and investigate."
+    },
+    "teamwork": {
+      "eyebrow": "08 / TEAMWORK & MY CONTRIBUTIONS",
+      "title": "From a four-person project to independent ownership.",
+      "teamTitle": "University phase — team of four",
+      "p1": "We developed the initial monitoring application as part of a course project for a real company. We attended the joint stakeholder session, considered the company's monitoring challenges and prioritized a focused set of features. The team implemented the initial dashboard and monitoring functionality under the course deadline.",
+      "independentTitle": "Independent phase — portfolio extension",
+      "p2": "After the course, I continued the project on my own. I expanded the device details view, added reporting-status functionality, further developed analytics and visualizations, refined services and data access, introduced automated tests and prepared a standalone demonstration with synthetic data.",
+      "p3": "CPU temperature, RAM and boot-counter monitoring were already part of the original group project; my later work extended and improved the existing system rather than introducing those areas from scratch."
+    },
+    "technical": {
+      "eyebrow": "09 / TECHNICAL APPROACH",
+      "title": "Building for clarity and maintainability.",
+      "p1": "The application uses ASP.NET Core MVC, Razor and JavaScript for presentation, services for business logic and repositories for MongoDB data access. Models and DTOs structure the data passed between layers.",
+      "architecture": {
+        "views": "Razor Views & JavaScript",
+        "controllers": "Controllers / API",
+        "services": "Services",
+        "repositories": "Repositories",
+        "database": "MongoDB"
+      },
+      "p2": "In the independent version, automated tests help verify service behavior. Synthetic data makes it possible to demonstrate the application without connecting to the company's live environment."
+    },
+    "reflection": {
+      "eyebrow": "10 / REFLECTION",
+      "title": "Software development starts with understanding the problem.",
+      "p1": "This project showed me the importance of understanding the operational context behind technical requirements. The most useful monitoring information is not necessarily the largest amount of data, but the information that helps someone recognize and investigate a meaningful issue.",
+      "p2": "Working within the university deadline taught me about scope and prioritization. Continuing independently gave me experience extending an existing codebase, improving its structure and taking responsibility for quality.",
+      "p3": "Future opportunities include device-type-specific thresholds, further analysis of disk usage and neighbour devices, and usability feedback on the expanded dashboard. These are potential next steps, not features claimed as completed."
+    }
+  },
+  "explore": "Explore other projects"
+}
